@@ -43,7 +43,7 @@ See our [project page](http://hi.cs.waseda.ac.jp/~iizuka/projects/inpainting/) f
 
 ## Usage
 
-First, download the colorization model by running the download script:
+First, download the inpainting model by running the download script:
 
 ```
 ./download_model.sh
