@@ -4,7 +4,7 @@
 # sha1sum 
 FILENAME="cvpr2017_linedrawings.t7"
 FILEURL="http://hi.cs.waseda.ac.jp/~sasaki/data/cvpr2017_linedrawings.t7"
-FILEMD5="dd26e0e243259cce0f8d1cefacef34f6"
+FILEMD5="7834cfac30dc10b7cec78bfc28989114"
 
 echo "Downloading the inpainting model (44M)..."
 wget --continue -O "$FILENAME" -- "$FILEURL"
