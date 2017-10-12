@@ -79,4 +79,3 @@ If you use this code please cite:
   year = 2017,
 }
 ```
-# CVPR2017_linedrawings
