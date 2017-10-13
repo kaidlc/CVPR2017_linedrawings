@@ -23,7 +23,7 @@ model:evaluate()
 
 -- All images should be loaded as 1 channel tensor
 function load_image_gray ( imagepath )
-   local img = image.load( imagepath ,1)
+   local img = image.load( imagepath, 1 )
    if img:size():size() == 2 then
       img = img:reshape(1,img:size(1),img:size(2))
    end
