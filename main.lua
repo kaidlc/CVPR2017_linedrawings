@@ -3,7 +3,7 @@ require 'image'
 
 torch.setdefaulttensortype( 'torch.FloatTensor' )
 
---Commandline options
+-- Commandline options
 cmd = torch.CmdLine()
 cmd:addTime()
 cmd:text()
@@ -13,7 +13,7 @@ cmd:option( '--input',     'input.png',                   'Input image filename.
 local opt = cmd:parse(arg or {})
 print(opt)
 
---load model
+-- Load model
 print( 'Loading the model...')
 local data = torch.load( opt.model )
 local model = data.model
@@ -21,7 +21,7 @@ local imgmean = data.mean
 local imgstd = data.std
 model:evaluate()
 
--- All images should be loaded as 1 channel tensor. 
+-- All images should be loaded as 1 channel tensor
 function load_image_gray ( imagepath )
    local img = image.load( imagepath ,1)
    if img:size():size() == 2 then
