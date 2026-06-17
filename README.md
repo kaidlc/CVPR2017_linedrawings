@@ -1,5 +1,5 @@
-# [Joint Gap Detection and Inpainting of Line Drawings](http://hi.cs.waseda.ac.jp/~iizuka/projects/inpainting/)
-Kazuma Sasaki, [Satoshi Iizuka](http://hi.cs.waseda.ac.jp/~iizuka/index_eng.html), [Edgar Simo-Serra](http://hi.cs.waseda.ac.jp/~esimo/), [Hiroshi Ishikawa](http://www.f.waseda.jp/hfs/indexE.html)
+# [Joint Gap Detection and Inpainting of Line Drawings](https://iizuka.cs.tsukuba.ac.jp/projects/line_restoration/en/)
+Kazuma Sasaki, [Satoshi Iizuka](https://iizuka.cs.tsukuba.ac.jp/), [Edgar Simo-Serra](https://esslab.jp/~ess/), [Hiroshi Ishikawa](https://hfs.w.waseda.jp/indexE.html)
 
 ## Overview
 
@@ -16,7 +16,7 @@ regions in images of line drawings using a deep convolutional neural network.
 Our method automatically detects gaps and completes them with correct thickness
 and curvature without any user interaction.
 
-See our [project page](http://hi.cs.waseda.ac.jp/~iizuka/projects/inpainting/) for more detailed information.
+See our [project page](https://iizuka.cs.tsukuba.ac.jp/projects/line_restoration/en/) for more detailed information.
 
 ## License
 ```
@@ -26,13 +26,13 @@ See our [project page](http://hi.cs.waseda.ac.jp/~iizuka/projects/inpainting/) f
   Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy
   of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or
   send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-  
+
   Kazuma Sasaki, Waseda University
   milky_kaid.lc@ruri.waseda.jp
   Satoshi Iizuka, Waseda University
   iizuka@aoni.waseda.jp, http://hi.cs.waseda.ac.jp/~iizuka/index_eng.html
   Edgar Simo-Serra, Waseda University
-  esimo@aoni.waseda.jp, http://hi.cs.waseda.ac.jp/~esimo/ 
+  esimo@aoni.waseda.jp, http://hi.cs.waseda.ac.jp/~esimo/
 ```
 
 ## Dependencies
@@ -63,7 +63,7 @@ th main.lua --input samples/eval2.png
 
 ### Notes
 - This is developed on a linux machine running Ubuntu 16.04 during late 2016.
-- Please note that the model is slow on large images and may run out of memory. 
+- Please note that the model is slow on large images and may run out of memory.
 - Provided model is under a non-commercial creative commons license.
 
 
